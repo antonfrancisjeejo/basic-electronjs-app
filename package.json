@@ -1,0 +1,19 @@
+{
+  "name": "electron-sysinfoapp",
+  "version": "1.0.0",
+  "description": "System monitor",
+  "main": "main.js",
+  "scripts": {
+    "dev": "electron",
+    "start": "electron .",
+    "resbuild": "electron-packager .",
+    "build": "electron-packager . --asar",
+    "allbuild": "electron-packager . --all"
+  },
+  "author": "Anton Jeejo",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^10.1.3",
+    "electron-packager": "^15.1.0"
+  }
+}
